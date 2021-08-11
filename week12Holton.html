@@ -17,9 +17,9 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>
-					<h3>INFO 3402: Information Exposition</h3>
-					<p style="color:#CFB87C; font-weight:bold;">Brian Keegan & Abram Handler</p>
-					<p style="color:#565A5C">Week 12: March 29 - April 2 2021</h5>
+					<h3>Leslie's Intro to HTML</h3>
+					<p style="color:#CFB87C; font-weight:bold;">Joel Holton</p>
+					<p style="color:#565A5C">August 11, 2021</h5>
 				</section>
 				
 
@@ -27,63 +27,63 @@
 					<h3>Outline for today</h3>
 					<ul>
 						<li><a href="https://github.com/brianckeegan/brianckeegan.github.io/blob/master/week11.html">Week 11 code here</a> (<a href="https://brianckeegan.github.io/week11.html">slides</a>)</li>
-						<li>Weekly Assignment 10</li>
+						<li>HTML Basics</li>
 						<li>Extending <a href="https://revealjs.com/">Reveal.js</a></li>
 						<ul>
-							<li>Animating code blocks</li>
-							<li>Vertical slides</li>
+							<li>Tags</li>
+							<li>Scripts</li>
 						</ul>
-						<li>Daily participation</li>
-						<li>Hacking breakouts</li>
+						<li>CSS Integration</li>
+						<li>Linking</li>
 						<ul>
-							<li>Slide numbers</li>
-							<li>Themes</li>
-							<li>Notes</li>
-							<li>Math</li>
+							<li>Bootstrap</li>
+							<li>Templates</li>
+							<li>Starting from Scratch</li>
+							<li>Directory Management</li>
 						</ul>
-						<li>Hacking share-outs</li>
+						<li>Upload from Local Development to live web</li>
 					</ul>
 				</section>
 
 				<!-- Start of a vertical slide -->
 				<section>
 					<section>
-						<h3>Weekly Assignment 10</h3>
-						<p><b>Due Friday, April 2 by midnight</b></p>
-						<p>Make a "meta-deck": a presentation describing how you made the presentation in Reveal.js.</p>
-						<p>You're making a tutorial for others on how to use a particular feature of Reveal.js.</p>
+						<h3>HTML</h3>
+						<p><b>Tags</b></p>
+						<p>A tag is the first and most important concept in HTML programming.</p>
+						
 					</section>
 
 					<section>
-						<h3>Weekly Assignment 10</h3>
-						<p>Presentation should be 5-10 slides and include</p>
+						<h3>All Tags</h3>
+						<p><a href=https://www.w3schools.com/TAgs/tag_html.asp</a></p>
 						<ul>
-							<li>Some kind of media (static or animated images)</li>
-							<li>At least two code blocks illustrating how to implement a feature</li>
-							<li>Some kind of animation ("fragment") or slide transition</li>
+							<li>Review Tags</li>
+							<li>Gather understanding of div, a, p, and h(1-5) tags.</li>
+					
 						</ul>
 					</section>
 					<section>
-						<h3>Weekly Assignment 10</h3>
-						<p>Your deck should have parts like:</p>
+						<h3>Scripts</h3>
+						<p>Javascript is integrated with the script tag.</p>
 						<ul>
-							<li><b>Introduction/motivation</b>: Why would someone need this functionality?</li>
-							<li><b>Statement of problem</b>: What is the minimum example to demonstrate? What are challenges?</li>
-							<li><b>Solution details</b>: step-by-step guide with examples and code blocks on how to implement</li>
-							<li><b>Conclusion</b>: Links to next steps, resources, citations</li>
+							<li><b>You do not need to know javascript, just how to execute it within html.</li>
+							<li><b>The console of the web browser needs to be told to run javascript by seeing a script tag.</li>
+							<li><b>HTML tells the computer what to do, javascript performs all programming tasks on the web.</li>
+							<li><b>Conclusion</b>: Javascript is penis. You won't learn that today.</li>
 						</ul>
 					</section>
 
 					<section>
-						<h3>Weekly Assignment 10</h3>
-						<p>Ideas:</p>
+						<h3>CSS</h3>
+						<p>The following are the things that are controlled in the CSS file for a website.</p>
 						<ul>
-							<li>Implementing documented features (easy)</li>
-							<li>Image and text side-by-side (easy-medium)</li>
-							<li>Embedding another webpage (medium)</li>
-							<li>Customizing CSS (medium)</li>
-							<li>Utilizing API to customize (hard) </li>
-							<li>Adding interactive visualizations (hard)</li>
+							<li>Colors</li>
+							<li>Font</li>
+							<li>Size</li>
+							<li>Background</li>
+							<li>Layers</li>
+							<li>Design language overall</li>
 						</ul>
 					</section>
 				</section>
@@ -92,32 +92,28 @@
 
 				<section>
 
-					<h3>List of Things To Do in Reveal JS</h3>
+					<h3>Links</h3>
 					<ul>
-						<li>Animating code blocks</li>
-						<li>Vertical slides</li>
-						<li>Slide numbers</li>
-						<li>Themes</li>
-						<li>Notes</li>
-						<li>Math</li>
+						<li>Links can link to sections of your own site</li>
+						<li>Outside sites, (ie. Youtube)</li>
+						<li>Go to new html pages</li>
+						<li>Go to a part of the webpage you could scroll to</li>
+						<li>Can be clicked by the user</li>
+						<li>Are the only thing that makes a website better than a resume. Use them wisely for user site navigation.</li>
 					</ul>
 				</section>
 
 				<!-- Vertical slides for each topic -->
 				<section>
 					<section>
-						<h3>Animating code blocks</h3>
-						<p>We can add <a href="https://revealjs.com/code/">animations</a> to code blocks.</p>
-						<p>(Easy)</p>
+						<h3>Bootstrap</h3>
+						<p>We will be using Bootstrap. This is a prepared library of javascript functions that simplify the development process.</p>
+						<p>This is the easiest way to make a website while still maintaining full control of your IP.</p>
 					</section>	
 
 					<section>
-						<h5>This is the data trim animation, that selects lines of code and highlights them using highlight.js.</h5>
-						<pre><code data-trim data-line-numbers=1,5|2-4|2|3|4><script type="text/template">
-							<pre><code data-trim data-line-numbers=1,5|2-4|2|3|4>
-								def addition(a,b):
-							          sum = a + b
-						           return sum
+						<h5>Bootstrap is a framework of CSS and HTML5 libraries. The whole library is free to use, legal, and open source.</h5>
+						<pre><code <script>Insert bootstrap link here </script>
 						    </code></pre>
 							</script></pre></code>
 						</code></pre>
@@ -132,94 +128,20 @@
 						<p>(Easy)</p>
 					</section>
 
-					<section>
-						<h3>Vertical slides</h3>
-						<pre><code data-trim data-line-numbers=1,6|2,5|3|4><script type="text/template">
-							<section>Horizontal Slide</section>
-								<section>
-								  <section>First</section>
-								  <section>Second</section>
-								</section>
-							</section>
-						</script></code></pre>
-					</section>
-
-					<section>
-						<h3>Vertical slides</h3>
-						<p>What does this look like in the <a href="https://revealjs.com/overview/">Overview mode</a>?</p>
-						<p>Overview shows vertical slides underneath the top slide before the section begins.
-						<p>Press ESC</p>
-					</section>
-
-				</section>
+					
 
 				<section>
-					<h3>Daily Participation</h3>
+					<h3>Directory Management</h3>
 					<ol>
-						<li><a href="https://github.com/brianckeegan/brianckeegan.github.io/blob/master/week12.html">Download this Reveal.js presentation</a></li>	
-						<li>Join a Hack & Tell breakout room</li>
-						<li>15 minutes to implement within file</li>
-						<li>Group share-out at end of class</li>
-						<li><a href="https://canvas.colorado.edu/courses/70121/assignments/1020972">Submit revised file to Canvas</a></li>
+						<li>Files must be where the computer is told to look for them.</li>
+						<li>For example, images are stored in the "img" folder.</li>
+						<li>The path for that would be: /assets/img/hero-bg.jpg</li>
+						<li>This is how a backgroung image is changed.</li>
 					</ol>
 					
 				</section>
 
-				<section>
-					<h3>Hack & Tell Breakouts</h3>
-					<p>2 breakout rooms for each topic</p>
-					<p>~6-8 students per room</p>
-					<ul>
-						<li>Slide numbers</li>
-						<li>Themes</li>
-						<li>Notes</li>
-						<li>Math</li>
-					</ul>
-					<p>Have a basic example of how to implement</p>
-					<p>Share example to GitHub Pages</p>
-				</section>
-
-				<section>
-
-					<section>
-						<h3>Slide numbers</h3>
-						<p>How do we add <a href="https://revealjs.com/slide-numbers/">slide numbers</a>?</p>
-						<p>(Easy)</p>
-					</section>
-
-				</section>
-
-				<section>
-					<section>
-						<h3>Themes</h3>
-						<p>How do we change the <a href="https://revealjs.com/themes/">theme</a>?</p>
-						<p>(Easy)</p>
-					</section>
-				</section>
-
-				<section>
-					<section>
-						<h3>Notes</h3>
-						<p>How do we add <a href="https://revealjs.com/speaker-view/">speaker notes</a>?</p>
-						<p>(Easy-Medium)</p>
-					</section>
-				</section>
-
-				<section>
-					<section>
-						<h3>Math</h3>
-						<p>How do we add <a href="https://revealjs.com/math/">math</a>?</p>
-						<p>(Medium)</p>
-					</section>
-				</section>
-
-				<section>
-					<section>
-						<h3>Image</h3>
-						<p>Meme!</p>
-						<img src='https://i.chzbgr.com/full/4035845/hB03D02F6/funny-memes-the-best-of-em'>
-					</section>
-				</section>
+				
 
 			</div>
 		</div>
